@@ -3,13 +3,13 @@
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 4.5rem;
-  width: 314px;
-  margin: 38px auto 0;
+  font-family: Lora-VariableFont_wght;
+  margin: 38px 364px 0 413px;
 }
 
 .u-section-1 .u-text-2 {
   font-size: 2.25rem;
+  font-family: Lora-VariableFont_wght;
   margin: 31px auto 0;
 }
 
@@ -21,6 +21,7 @@
 
 .u-section-1 .u-text-3 {
   width: 212px;
+  font-family: Lora-VariableFont_wght;
   margin: 31px auto 45px;
 }
 
@@ -28,11 +29,23 @@
   .u-section-1 .u-sheet-1 {
     min-height: 491px;
   }
+
+  .u-section-1 .u-text-1 {
+    font-size: 4.5rem;
+    margin-right: 264px;
+    margin-left: 313px;
+    width: 314px;
+  }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
     min-height: 474px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 154px;
+    margin-left: 203px;
   }
 }
 
@@ -43,6 +56,8 @@
 
   .u-section-1 .u-text-1 {
     font-size: 3.75rem;
+    margin-right: 64px;
+    margin-left: 113px;
   }
 }
 
@@ -53,6 +68,8 @@
 
   .u-section-1 .u-text-1 {
     font-size: 3rem;
+    margin-right: 0;
+    margin-left: 0;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 115px;
@@ -141,4 +158,9 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+}@font-face {
+  font-family: 'Lora-VariableFont_wght';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Lora-VariableFont_wght.ttf);
 }
